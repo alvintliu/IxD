@@ -1,0 +1,285 @@
+body {
+	background-color: #ebe3d8;
+}
+
+.navbar-collapse{
+	margin-left: 5%;
+}
+
+.navbar-collapse:hover{
+	color: #e2601e;
+}
+
+table{
+	width: 89%;
+	table-layout: auto;
+	margin: 150px auto 40vh auto;
+}
+th{
+	font-family: 'Source Code Pro', monospace;
+	border-bottom: 1px solid black;
+	font-size: 1.2rem;
+	font-size: 1vw;
+	color: #e2601e;
+	font-weight: bold;
+}
+td{
+	font-family: 'Libre Franklin', sans-serif;
+	border-bottom: 1px solid black;
+	font-size: 1.5rem;
+	font-size: 1.3vw;
+	font-weight: 700;
+}
+.col-1{
+	width: 15%;
+}
+.row-1:hover{
+	color: #e2601e;
+}
+
+.box {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	width: 89%;
+	max-height: 500px;
+	justify-content: space-between;
+	border-top: .1px solid black;
+	height: auto;
+}
+
+.box:hover > img{
+	filter: invert(100%);
+	transition: .3s;
+}
+
+.project-body {
+	width: 510px;
+}
+
+.last-box{
+	border-bottom: .1px solid black;
+}
+
+img{
+	width: auto;
+	max-width: 710px;
+	max-height: 500px;
+	height: auto;
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #e2601e;
+}
+.project-no {
+	padding-top: 20px;
+	font-family: 'Source Code Pro', monospace;
+	color: #e2601e;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.project-title {
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 700;
+	line-height: 98%;
+	color: black;
+}
+
+.project-info:hover > h1{
+	color: #e2601e;
+	transition: .3s;
+}
+
+.project-categories {
+	padding-top: 20px;
+	font-family: 'Source Code Pro', monospace;
+	font-size: .7rem;
+	color: #007bff !important;
+}
+
+.project-categories:hover {
+	color: #007bff !important;
+}
+/*
+button {
+	margin-top: 20px;
+}
+*/
+.project-body {
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 300;
+	font-size: 1rem;
+	padding-top: 20px;
+	color: black !important;
+}
+.about-me{
+	margin: 20vh 5%;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+}
+.about-text{
+	width: 45%;
+	margin-right: 5%;
+}
+.about-title{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 2rem;
+	font-weight: 700;
+}
+.about-me-info{
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 300;
+	font-size: .85rem;
+	padding-top: 10px;
+	color: black !important;
+}
+.portrait{
+	width: 200px;
+	height: auto;
+	max-height: 200px;
+	position: center;
+	margin: auto;
+}
+.linkedin{
+	color:#007bff; 
+}
+footer{
+	font-family: 'Source Code Pro', monospace;
+	background-color: black;
+	color: white;
+	font-weight: 300;
+	padding-bottom: 3%;
+}
+@media screen and (max-width: 1400px) {
+	table{
+	margin: 100px auto 30vh auto;
+	}
+	th{
+		font-size: 1.2vw;
+	}
+	td{
+		font-size: 1.5vw;
+	}
+	.box{
+		max-height: 400px;
+		height: auto;
+		width: 90%;	
+	}
+	img{
+		max-width: 550px;
+		width: auto;
+		height: auto;
+	}
+	.project-title{
+		font-size: 2rem;
+	}
+	.project-body{
+		font-size: .8rem;
+		width: auto;
+		max-width: 400px;
+		padding-right: 20px;
+	}
+	.about-title{
+		font-size: 1.7rem;
+		}
+	.about-me-info{
+		font-size: .75rem;
+		padding-top: 7px;
+	}
+@media screen and (max-width: 990px) {
+	table{
+	margin: 85px auto 20vh auto;
+	}
+	th{
+		font-size: 1.2vw;
+	}
+	td{
+		font-size: 1.4vw;
+	}
+	.box{
+		max-height: 350px;
+		height: auto;
+		width: 90%;
+	}
+	img{
+		max-width: 495px;
+		width: auto;
+		height: auto;
+	}
+	.project-title{
+		font-size: 1.5rem;
+	}
+	.project-body{
+		font-size: .7rem;
+		max-width: 350px;
+		width: auto;
+		padding-top: 10px;
+	}
+	.project-categories{
+		padding-top: 1%;
+	}
+}
+
+@media screen and (max-width: 830px) {
+	th{
+		font-size: 3vw;
+	}
+	td{
+		font-size: 4vw;
+	}
+	.box{
+		max-height: 500px;
+		width:90%;
+		height: auto;
+	}
+	img{
+		height: auto;
+		width: 100%;
+		max-width: 740px
+	}
+	.hide-small{
+		display: none;
+	}
+	.about-me{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		width: 90%;
+	}
+	.about-text{
+	width: 100%;
+	margin-top: 20px;
+	}
+	.about-title{
+		text-align: center;
+	}
+@media screen and (max-width: 479px) {
+	th{
+		font-size: 3vw;
+	}
+	td{
+		font-size: 4vw;
+	}
+	.box{
+		max-height: 290px;
+		overflow:hidden
+		width:100%;
+	}
+	img{
+		width: 100%;
+		max-width: 490px;
+	}
+	.hide-small{
+		display: none;
+	}
+}
