@@ -1,5 +1,6 @@
 body {
 	background-color: #ebe3d8;
+	font-family: 'Source Code Pro', monospace;
 }
 
 .navbar-collapse{
@@ -10,13 +11,49 @@ body {
 	color: #e2601e;
 }
 
+.navbar{
+	margin-bottom: 7%;
+}
+
+.rows{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 90%;
+	margin: auto;
+}
+.top{
+	padding-top: 5px;
+	color: #e2601e;
+	font-weight: bold;
+	font-size: .75rem;
+}
+.mid{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 1.7rem;
+	font-weight: 700;
+	line-height: 98%;
+}
+.bot{
+	font-size: .75rem;
+	color: #007bff !important;
+}
+.roman{
+	margin: auto 0;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 1.7rem;
+	font-weight: 700;
+	line-height: 98%;
+}
+
+
+/*
 table{
 	width: 89%;
 	table-layout: auto;
 	margin: 150px auto 40vh auto;
 }
 th{
-	font-family: 'Source Code Pro', monospace;
 	border-bottom: 1px solid black;
 	font-size: 1.2rem;
 	font-size: 1vw;
@@ -30,12 +67,30 @@ td{
 	font-size: 1.3vw;
 	font-weight: 700;
 }
+
 .col-1{
 	width: 15%;
 }
 .row-1:hover{
 	color: #e2601e;
 }
+*/
+
+.topborder{
+	border-top: .1px solid black;
+	border-bottom: .1px solid black;
+}
+
+.botborder{
+	border-top: .1px solid black;
+	border-bottom: .1px solid black;
+}
+
+.space{
+	padding-top: 170px;
+	opacity: 0;
+}
+
 
 .box {
 	margin: 0 auto;
@@ -80,7 +135,6 @@ a:hover{
 }
 .project-no {
 	padding-top: 20px;
-	font-family: 'Source Code Pro', monospace;
 	color: #e2601e;
 	font-weight: bold;
 	font-size: 1rem;
@@ -101,7 +155,6 @@ a:hover{
 
 .project-categories {
 	padding-top: 20px;
-	font-family: 'Source Code Pro', monospace;
 	font-size: .7rem;
 	color: #007bff !important;
 }
@@ -115,7 +168,6 @@ button {
 }
 */
 .project-body {
-	font-family: 'Source Code Pro', monospace;
 	font-weight: 300;
 	font-size: 1rem;
 	padding-top: 20px;
@@ -137,7 +189,6 @@ button {
 	font-weight: 700;
 }
 .about-me-info{
-	font-family: 'Source Code Pro', monospace;
 	font-weight: 300;
 	font-size: .85rem;
 	padding-top: 10px;
@@ -154,7 +205,6 @@ button {
 	color:#007bff; 
 }
 footer{
-	font-family: 'Source Code Pro', monospace;
 	background-color: black;
 	color: white;
 	font-weight: 300;
