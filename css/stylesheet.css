@@ -27,16 +27,19 @@ body {
 	color: #e2601e;
 	font-weight: bold;
 	font-size: .75rem;
+	margin-bottom: .5rem;
 }
 .mid{
 	font-family: 'Libre Franklin', sans-serif;
 	font-size: 1.7rem;
 	font-weight: 700;
 	line-height: 98%;
+	margin-bottom: .5rem;
 }
 .bot{
 	font-size: .75rem;
-	color: #007bff !important;
+	color: black !important;
+	margin-bottom: .3rem;
 }
 .roman{
 	margin: auto 0;
@@ -86,11 +89,10 @@ td{
 	border-bottom: .1px solid black;
 }
 
-.space{
-	padding-top: 170px;
-	opacity: 0;
-}
 
+#one{
+	margin-top: 10rem;
+}
 
 .box {
 	margin: 0 auto;
@@ -121,6 +123,7 @@ img{
 	max-width: 710px;
 	max-height: 500px;
 	height: auto;
+	object-fit: cover;
 }
 
 
@@ -150,7 +153,7 @@ a:hover{
 
 .project-info:hover > h1{
 	color: #e2601e;
-	transition: .3s;
+	transition: .3s;f
 }
 
 .project-categories {
@@ -229,6 +232,7 @@ footer{
 		max-width: 550px;
 		width: auto;
 		height: auto;
+		object-fit: cover;
 	}
 	.project-title{
 		font-size: 2rem;
@@ -295,7 +299,7 @@ footer{
 	img{
 		height: auto;
 		width: 100%;
-		max-width: 740px
+		max-width: 740px;
 	}
 	.hide-small{
 		display: none;
