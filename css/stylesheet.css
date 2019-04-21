@@ -31,57 +31,25 @@ body {
 }
 .mid{
 	font-family: 'Libre Franklin', sans-serif;
-	font-size: 1.7rem;
+	font-size: 1.2rem;
 	font-weight: 700;
 	line-height: 98%;
 	margin-bottom: .5rem;
 }
 .bot{
-	font-size: .75rem;
+	font-size: .7rem;
 	color: black !important;
 	margin-bottom: .3rem;
 }
 .roman{
 	margin: auto 0;
 	font-family: 'Libre Franklin', sans-serif;
-	font-size: 1.7rem;
+	font-size: 1.2rem;
 	font-weight: 700;
 	line-height: 98%;
 }
-
-
-/*
-table{
-	width: 89%;
-	table-layout: auto;
-	margin: 150px auto 40vh auto;
-}
-th{
-	border-bottom: 1px solid black;
-	font-size: 1.2rem;
-	font-size: 1vw;
-	color: #e2601e;
-	font-weight: bold;
-}
-td{
-	font-family: 'Libre Franklin', sans-serif;
-	border-bottom: 1px solid black;
-	font-size: 1.5rem;
-	font-size: 1.3vw;
-	font-weight: 700;
-}
-
-.col-1{
-	width: 15%;
-}
-.row-1:hover{
-	color: #e2601e;
-}
-*/
-
 .topborder{
 	border-top: .1px solid black;
-	border-bottom: .1px solid black;
 }
 
 .botborder{
@@ -92,6 +60,11 @@ td{
 
 #one{
 	margin-top: 10rem;
+}
+
+#projects{
+	border-top: .1px solid black;
+	border-bottom: .1px solid black;
 }
 
 .box {
@@ -105,27 +78,32 @@ td{
 	height: auto;
 }
 
+.last-box{
+	border-bottom: .1px solid black;
+}
+/*
 .box:hover > img{
 	filter: invert(100%);
 	transition: .3s;
 }
+*/
 
 .project-body {
 	width: 510px;
 }
 
-.last-box{
-	border-bottom: .1px solid black;
-}
-
 img{
 	width: auto;
-	max-width: 710px;
+	max-width: 500px;
 	max-height: 500px;
 	height: auto;
 	object-fit: cover;
 }
 
+.image{
+	border-bottom: .1px solid black;
+	border-top: .1px solid black;
+}
 
 a{
 	text-decoration: none;
@@ -140,12 +118,12 @@ a:hover{
 	padding-top: 20px;
 	color: #e2601e;
 	font-weight: bold;
-	font-size: 1rem;
+	font-size: .7rem;
 }
 
 .project-title {
 	font-family: 'Libre Franklin', sans-serif;
-	font-size: 2.5rem;
+	font-size: 2rem;
 	font-weight: 700;
 	line-height: 98%;
 	color: black;
@@ -157,7 +135,7 @@ a:hover{
 }
 
 .project-categories {
-	padding-top: 20px;
+	padding-top: 40px;
 	font-size: .7rem;
 	color: #007bff !important;
 }
@@ -171,13 +149,14 @@ button {
 }
 */
 .project-body {
+	max-width: 430px;
 	font-weight: 300;
-	font-size: 1rem;
+	font-size: .7rem;
 	padding-top: 20px;
 	color: black !important;
 }
 .about-me{
-	margin: 20vh 5%;
+	margin: 20vh 5% 30vh 5%;
 	display: flex;
 	flex-direction: row;
 	justify-content: start;
@@ -188,14 +167,15 @@ button {
 }
 .about-title{
 	font-family: 'Libre Franklin', sans-serif;
-	font-size: 2rem;
+	font-size: 1.2rem;
 	font-weight: 700;
 }
 .about-me-info{
 	font-weight: 300;
-	font-size: .85rem;
+	font-size: .75rem;
 	padding-top: 10px;
 	color: black !important;
+	max-width: 400px;
 }
 .portrait{
 	width: 200px;
@@ -215,7 +195,7 @@ footer{
 }
 @media screen and (max-width: 1400px) {
 	table{
-	margin: 100px auto 30vh auto;
+	margin: 100px auto 25vh auto;
 	}
 	th{
 		font-size: 1.2vw;
@@ -235,7 +215,7 @@ footer{
 		object-fit: cover;
 	}
 	.project-title{
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 	.project-body{
 		font-size: .8rem;
@@ -244,11 +224,12 @@ footer{
 		padding-right: 20px;
 	}
 	.about-title{
-		font-size: 1.7rem;
+		font-size: 1.2rem;
 		}
 	.about-me-info{
 		font-size: .75rem;
 		padding-top: 7px;
+		max-width: 430px;
 	}
 @media screen and (max-width: 990px) {
 	table{
