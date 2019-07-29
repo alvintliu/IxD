@@ -1,12 +1,12 @@
 body {
-	background-color: #ebe3d8;
+	background-color: black;
 	font-family: 'Source Code Pro', monospace;
 }
 
 .button {
-  background-color: #ebe3d8;
-  border: .5px solid #e2601e;
-  color: #e2601e;
+  background-color: black;
+  border: .5px solid white;
+  color: white;
   text-align: center;
   font-size: .9rem;
   transition: all 0.5s;
@@ -42,7 +42,7 @@ body {
 }
 .top{
 	padding-top: 5px;
-	color: #e2601e;
+	color: white;
 	font-weight: bold;
 	font-size: .75rem;
 	margin-bottom: .5rem;
@@ -56,7 +56,7 @@ body {
 }
 .bot{
 	font-size: .7rem;
-	color: black !important;
+	color: white !important;
 	margin-bottom: .3rem;
 }
 .roman{
@@ -67,22 +67,22 @@ body {
 	line-height: 98%;
 }
 .topborder{
-	border-top: .1px solid black;
+	border-top: .1px solid white;
 }
 
 .botborder{
-	border-top: .1px solid black;
-	border-bottom: .1px solid black;
+	border-top: .1px solid white;
+	border-bottom: .1px solid white;
 }
 
 
 #one{
-	margin-top: 10rem;
+	margin-top: 17rem;
 }
 
 #projects{
-	border-top: .1px solid black;
-	border-bottom: .1px solid black;
+	border-top: .1px solid white;
+	border-bottom: .1px solid white;
 }
 
 .box {
@@ -92,12 +92,12 @@ body {
 	width: 89%;
 	max-height: 500px;
 	justify-content: space-between;
-	border-top: .1px solid black;
+	border-top: 1px solid white;
 	height: auto;
 }
 
 .last-box{
-	border-bottom: .1px solid black;
+	border-bottom: 1px solid white;
 }
 
 
@@ -106,18 +106,14 @@ body {
 }
 
 img{
-	max-height: 500px;
-	object-fit: cover;
+	max-height: 495px;
+	object-fit: contain;
 }
 
-.image{
-	border-bottom: .1px solid black;
-	border-top: .1px solid black;
-}
 
 a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 a:hover{
@@ -128,7 +124,7 @@ a:hover{
 
 .project-no {
 	padding-top: 20px;
-	color: #e2601e;
+	color: white;
 	font-weight: bold;
 	font-size: .8rem;
 }
@@ -139,7 +135,7 @@ a:hover{
 	font-size: 2rem;
 	font-weight: 700;
 	line-height: 98%;
-	color: black;
+	color: white;
 }
 
 .case-study{
@@ -154,11 +150,11 @@ a:hover{
 .project-categories {
 	padding-top: 2%;
 	font-size: .7rem;
-	color: #007bff !important;
+	color: white!important;
 }
 
 .project-categories:hover {
-	color: #007bff !important;
+	color: white !important;
 }
 
 .project-body {
@@ -166,7 +162,7 @@ a:hover{
 	font-weight: 300;
 	font-size: .9rem;
 	padding-top: 20px;
-	color: black !important;
+	color: white !important;
 }
 
 .about-me{
@@ -183,12 +179,13 @@ a:hover{
 	font-family: 'Libre Franklin', sans-serif;
 	font-size: 1.2rem;
 	font-weight: 700;
+	color:white
 }
 .about-me-info{
 	font-weight: 300;
 	font-size: .75rem;
 	padding-top: 10px;
-	color: black !important;
+	color: white !important;
 	max-width: 400px;
 }
 .portrait{
@@ -204,6 +201,7 @@ a:hover{
 }
 
 footer{
+	border-top: .1px solid white;
 	background-color: black;
 	color: white;
 	font-weight: 300;
